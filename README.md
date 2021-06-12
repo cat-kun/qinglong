@@ -6,9 +6,7 @@
 
 （这里以centos系统服务器为例）
 
-* [小白讲解]: https://github.com/dengxiaozhen/qinglong/blob/master/qa.md	"小白问答"
-
-  
+* [小白问答]: 小白讲解
 
 ## 系统环境的准备与Docker的安装
 
@@ -88,3 +86,5 @@ docker exec -it qinglong ql repo https://ghproxy.com/https://github.com/chinnkar
 ## License
 
 [MIT](https://github.com/PanJiaChen/vue-admin-template/blob/master/LICENSE) license.
+
+[小白问答]:https://github.com/dengxiaozhen/qinglong/blob/master/qa.md

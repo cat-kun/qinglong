@@ -84,6 +84,8 @@ docker exec -it qinglong ql repo https://ghproxy.com/https://github.com/chinnkar
 
 * 下一篇：添加cookie
 
+![IMG_3707](/Users/xiaozhen/Downloads/IMG_3707.JPG)
+
 ## License
 
 [MIT](https://github.com/PanJiaChen/vue-admin-template/blob/master/LICENSE) license.

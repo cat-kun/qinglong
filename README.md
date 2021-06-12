@@ -46,7 +46,7 @@ firewall-cmd --zone=public --add-port=5700/tcp --permanent
 
 然后就可以通过ip地址+端口访问青龙控制下面板了，例如http://149.129.55.8:5700/ （这里的ip是你的服务器ip）
 
-![image-20210612143200587](/Users/xiaozhen/Library/Application Support/typora-user-images/image-20210612143200587.png)
+![image-20210612143200587](https://tva1.sinaimg.cn/large/008i3skNgy1grfv2yyq79j31fc0u0jt4.jpg)
 
 * 默认账号密码都是admin，当你第一次登录青龙面板后，系统会自动更改你的密码。更改完密码后可以通过命令查看最新的密码
 
@@ -68,7 +68,7 @@ cat /ql/config/auth.json
 docker exec -it qinglong ql update
 ```
 
-![image-20210612142859085](/Users/xiaozhen/Library/Application Support/typora-user-images/image-20210612142859085.png)
+![image-20210612142859085](https://tva1.sinaimg.cn/large/008i3skNgy1grfv3814z1j30u00wwael.jpg)
 
 完成后就可以添加任务脚本了
 
@@ -78,7 +78,7 @@ docker exec -it qinglong ql repo https://ghproxy.com/https://github.com/chinnkar
 
 添加完后控制面板就可以看到任务脚本了
 
-![image-20210612143248707](/Users/xiaozhen/Library/Application Support/typora-user-images/image-20210612143248707.png)
+![image-20210612143248707](https://tva1.sinaimg.cn/large/008i3skNgy1grfv3hebk7j31fc0u0jwg.jpg)
 
 至此就配置完成了。添加好Cookie就可以正常挂机了！有错漏以及不明白的地方可以提issues https://github.com/dengxiaozhen/qinglong/issues
 

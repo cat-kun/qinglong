@@ -1,8 +1,8 @@
 # 青龙搭建教程
 
-==写在前面：本内容收集整理自互联网仅供技术交流之用，请勿用于任何侵犯他人权益的用途！本人不为此承担任何责任！本人与本文章所涉及的所有工具均无利益相关性，本博客为个人笔记性质不会从中获取利益，如存在侵权情况，请联系我，将会进行删除！==
+写在前面：本内容收集整理自互联网仅供技术交流之用，请勿用于任何侵犯他人权益的用途！本人不为此承担任何责任！本人与本文章所涉及的所有工具均无利益相关性，本博客为个人笔记性质不会从中获取利益，如存在侵权情况，请联系我，将会进行删除！
 
-==由于需要获取Cookie等敏感信息将存在信息泄漏以及侵权风险，以下内容本站不会提供任何可实质使用的工具站内下载，也不能为所涉及的工具承担任何使用风险，请自行甄别使用风险！==
+由于需要获取Cookie等敏感信息将存在信息泄漏以及侵权风险，以下内容本站不会提供任何可实质使用的工具站内下载，也不能为所涉及的工具承担任何使用风险，请自行甄别使用风险！
 
 （这里以centos系统服务器为例）
 
@@ -41,7 +41,7 @@ docker run -dit -v $pwd/ql/config:/ql/config -v $pwd/ql/log:/ql/log -v $pwd/ql/d
 firewall-cmd --zone=public --add-port=5700/tcp --permanent
 ```
 
-然后就可以通过ip地址+端口访问青龙控制下面板了，例如http://149.129.55.8:5700/（这里的ip是你的服务器ip）
+然后就可以通过ip地址+端口访问青龙控制下面板了，例如http://149.129.55.8:5700/ （这里的ip是你的服务器ip）
 
 ![image-20210612143200587](/Users/xiaozhen/Library/Application Support/typora-user-images/image-20210612143200587.png)
 
@@ -77,4 +77,10 @@ docker exec -it qinglong ql repo https://ghproxy.com/https://github.com/chinnkar
 
 ![image-20210612143248707](/Users/xiaozhen/Library/Application Support/typora-user-images/image-20210612143248707.png)
 
-至此就配置完成了。添加好Cookie就可以正常挂机了！
+至此就配置完成了。添加好Cookie就可以正常挂机了！有错漏以及不明白的地方可以提issues https://github.com/dengxiaozhen/qinglong/issues
+
+* 下一篇：添加cookie
+
+## License
+
+[MIT](https://github.com/PanJiaChen/vue-admin-template/blob/master/LICENSE) license.

@@ -82,7 +82,7 @@ docker exec -it qinglong ql repo https://ghproxy.com/https://github.com/chinnkar
 
 至此就配置完成了。添加好Cookie就可以正常挂机了！有错漏以及不明白的地方可以提issues https://github.com/dengxiaozhen/qinglong/issues
 
-* 下一篇：添加cookie
+[下一篇：添加cookie](https://github.com/dengxiaozhen/qinglong/blob/master/cookie.md)
 
 ![](https://tva1.sinaimg.cn/large/008i3skNgy1grgiky84ghj30lx0myq57.jpg)
 

@@ -84,7 +84,7 @@ docker exec -it qinglong ql repo https://ghproxy.com/https://github.com/chinnkar
 
 * 下一篇：添加cookie
 
-![image](https://tva1.sinaimg.cn/large/008i3skNgy1grgiizj29xj30u00u0mzw.jpg)
+![](https://tva1.sinaimg.cn/large/008i3skNgy1grgiky84ghj30lx0myq57.jpg)
 
 ## License
 

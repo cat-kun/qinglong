@@ -6,7 +6,7 @@
 
 （这里以centos系统服务器为例）
 
-[小白问答](https://github.com/dengxiaozhen/qinglong/blob/master/qa.md)
+❓[小白问答](https://github.com/dengxiaozhen/qinglong/blob/master/qa.md)
 
 ## 系统环境的准备与Docker的安装
 ###### 下面所有的命令都是在centos内复制粘贴回车

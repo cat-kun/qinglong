@@ -82,6 +82,42 @@ docker exec -it qinglong ql repo https://ghproxy.com/https://github.com/chinnkar
 
 至此就配置完成了。添加好Cookie就可以正常挂机了！有错漏以及不明白的地方可以提issues https://github.com/dengxiaozhen/qinglong/issues
 
+## 互助码的设置
+
+首先添加以下仓库
+
+```
+ql repo https://ghproxy.com/https://github.com/chinnkarahoi/jd_scripts.git "jd_|jx_|getJDCookie" "activity|backUp" "^jd[^_]|USER"
+```
+
+完成后在配置项修改以下内容
+
+```
+name_js=(
+  chinnkarahoi_jd_scripts_jd_fruit
+  chinnkarahoi_jd_scripts_jd_pet
+  chinnkarahoi_jd_scripts_jd_plantBean
+  chinnkarahoi_jd_scripts_jd_dreamFactory
+  chinnkarahoi_jd_scripts_jd_jdfactory
+  chinnkarahoi_jd_scripts_jd_jdzz
+  chinnkarahoi_jd_scripts_jd_crazy_joy
+  chinnkarahoi_jd_scripts_jd_jxnc
+  chinnkarahoi_jd_scripts_jd_bookshop
+  chinnkarahoi_jd_scripts_jd_cash
+  chinnkarahoi_jd_scripts_jd_sgmh
+  chinnkarahoi_jd_scripts_jd_cfd
+  chinnkarahoi_jd_scripts_jd_health
+)
+```
+
+![img](https://www.feiji.work/wp-content/uploads/2021/05/image-12-1024x532.png)
+
+保存回到任务列表，搜索`互助码`运行该任务即可，完成后即可获取互助码
+
+![img](https://www.feiji.work/wp-content/uploads/2021/05/image-13-1024x639.png)
+
+
+
 [下一篇：添加cookie](https://github.com/dengxiaozhen/qinglong/blob/master/cookie.md)
 
 ![](https://tva1.sinaimg.cn/large/008i3skNgy1grgiky84ghj30lx0myq57.jpg)

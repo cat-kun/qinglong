@@ -120,7 +120,7 @@ name_js=(
 
 [下一篇：添加cookie](https://github.com/dengxiaozhen/qinglong/blob/master/cookie.md)
 
-![](https://tva1.sinaimg.cn/large/008i3skNgy1grgiky84ghj30lx0myq57.jpg)
+<img src="https://tva1.sinaimg.cn/large/008i3skNgy1grgiky84ghj30lx0myq57.jpg" style="zoom:50%;" />
 
 ## License
 

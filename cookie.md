@@ -77,16 +77,16 @@ vi config.toml
     allowAdd        = 0 #是否允许添加账号（0允许1不允许）不允许添加时则只允许已有账号登录
     allowNum        = 99 #允许添加账号的最大数量,-1为不限制
 
-    #web服务设置
+#web服务设置
 
 [server]
     address         = ":5701" #端口号设置
     serverRoot      = "public" #静态目录设置，请勿更改
     serverAgent     = "JDCookie" #服务端UA    
     
-    #模板设置
+#模板设置
     
-    [viewer]
+[viewer]
     Delimiters      = ["${", "}"] #模板标签，请勿更改
 ```
 

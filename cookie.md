@@ -65,7 +65,8 @@ chmod 777 JDC
 vi config.toml
 ```
 
-> #公告设置
+```
+#公告设置
 [app]
     path            = "/ql" #青龙面板映射文件夹名称,一般为QL或ql
     QLip            = "http://127.0.0.1" #青龙面板的ip
@@ -87,6 +88,7 @@ vi config.toml
     
     [viewer]
     Delimiters      = ["${", "}"] #模板标签，请勿更改
+```
 
 按字母“i”进入编辑模式，将光标移动到“QL”处，将QL修该为“/ql”注意大小写。
 再按ESC键退出编辑，再输入”:wq”保存退出。

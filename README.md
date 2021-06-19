@@ -4,7 +4,8 @@
 
 由于需要获取Cookie等敏感信息将存在信息泄漏以及侵权风险，以下内容本站不会提供任何可实质使用的工具站内下载，也不能为所涉及的工具承担任何使用风险，请自行甄别使用风险！
 
-[参考资料](https://www.kejiwanjia.com/zheteng/1483.html)
+[参考资料](https://www.kejiwanjia.com/zheteng/1483.html) 
+[参考资料2](https://www.moesugar.com/jsjc/26.html)
 
 （这里以centos系统服务器为例）
 
